@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #cdbd3f;
+}
+
+header img{
+    width: 100px;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.menu li{
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #1d1a02;
+    font-weight: bold;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+}
+
+
+/*** FIM HEADER */
+
+.marmitas{
+    width: 80%;
+    margin: 40px auto;
+}
+
+.marmitas h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.flex-content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.content{
+    width: calc(100% / 3);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.content img{
+    width: 260px;
+    border-radius: 5px;
+    border: 1px solid #cdbd3f;
+    margin-bottom: 5px;
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.25);
+    box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.25);
+}
+
+.content h2{
+    font-size: 18px;
+    color: #1d1a02;
+    margin-bottom: 5px;
+}
+
+.content p{
+    color: #252523;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.content button{
+    padding: 8px;
+    border: 1px solid #cdbd3f;
+    background: linear-gradient(#f7ec9c,#dad085);
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.25);
+    box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.25);
+}
+
+.content button a{
+    text-decoration: none;
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+    color: #1d1a02;
+}
+
+.content button:hover, .content button a:hover{
+    background: linear-gradient(#837a3b, #5a531f);
+    color: #f7ec9c;
+}
+
+/**** Fim da sessao de marmitas ***/
+
+.detalhes {
+    width: 100%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.img img{
+    width: 400px;
+    border-radius: 5px;
+    border: 1px solid #cdbd3f;
+    margin-bottom: 5px;
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.25);
+    box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.25);
+}
+
+.detalhes h2{
+    font-size: 24px;
+    color: #1d1a02;
+    margin-bottom: 8px;
+}
+
+.detalhes h3{
+    color: #1d1a02;
+    margin-bottom: 8px; 
+}
+
+.detalhes h4{
+    margin-bottom: 8px;
+    color: #1d1a02;
+}
+
+.detalhes span{
+    color: #252523;
+}
+
+.detalhes p{
+    margin-top: 8px;
+    color: #1d1a02;
+    font-size: 24px;
+}
+/**** Fim Detalhes   *****/
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #cdbd3f;
+    height: 8vh;
+}
+
+.list li{
+    list-style-type: none;
+    color: #252523;
+    font-size: 14px;
+}
+
+.copy{
+    color: #252523;
+    font-size: 16px;
+}
+
